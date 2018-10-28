@@ -1,0 +1,1235 @@
+focus_tree = {
+	id = datoria_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DAT
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 80 y = 1800 }
+	focus = {
+		id = DAT_gov_rebirth
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = DAT_reform_siv_army
+		icon = GFX_goal_generic_small_arms
+		cost = 10
+		x = 58
+		y = 0
+
+	}
+	focus = {
+		id = DAT_Expansion_of_the_Kortalinberg_ports
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		x = 67
+		y = 0
+
+	}
+	focus = {
+		id = DAT_future_manifest
+		icon = GFX_goal_dat_future_manifest
+		cost = 10
+		prerequisite = {
+			focus = DAT_gov_rebirth
+		}
+		mutually_exclusive = {
+			focus = DAT_kortalin_kill
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = DAT_time_is_it
+		icon = GFX_goal_generic_army_tanks
+		cost = 10
+		prerequisite = {
+			focus = DAT_future_manifest
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = DAT_vixran_punch
+		icon = GFX_goal_demand_sudetenland
+		cost = 10
+		prerequisite = {
+			focus = DAT_time_is_it
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = DAT_north_verf
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = DAT_vixran_punch
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = DAT_vix_dobr
+		icon = GFX_goal_generic_fortify_city
+		cost = 10
+		prerequisite = {
+			focus = DAT_vixran_punch
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = DAT_north_way
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10
+		prerequisite = {
+			focus = DAT_vix_dobr
+		}
+		prerequisite = {
+			focus = DAT_north_verf
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = DAT_colonies_pact
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10
+		prerequisite = {
+			focus = DAT_north_way
+		}
+		mutually_exclusive = {
+			focus = DAT_throw_chushak
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = DAT_throw_chushak
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		prerequisite = {
+			focus = DAT_north_way
+		}
+		mutually_exclusive = {
+			focus = DAT_colonies_pact
+		}
+		x = 6
+		y = 7
+
+	}
+	focus = {
+		id = DAT_new_platz
+		icon = GFX_goal_generic_small_arms
+		cost = 10
+		prerequisite = {
+			focus = DAT_colonies_pact
+			focus = DAT_throw_chushak
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = DAT_ihari
+		icon = GFX_goal_poland_goal
+		cost = 10
+		prerequisite = {
+			focus = DAT_new_platz
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = DAT_zaver_unity
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		prerequisite = {
+			focus = DAT_future_manifest
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = DAT_kortalin_kill
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		prerequisite = {
+			focus = DAT_gov_rebirth
+		}
+		mutually_exclusive = {
+			focus = DAT_future_manifest
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = DAT_end_isolatism
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10
+		prerequisite = {
+			focus = DAT_kortalin_kill
+			focus = DAT_future_manifest
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = DAT_far_enemies
+		icon = GFX_goal_generic_air_fighter
+		cost = 10
+		prerequisite = {
+			focus = DAT_end_isolatism
+		}
+		mutually_exclusive = {
+			focus = DAT_find_friends
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = DAT_requir_vali
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10
+		prerequisite = {
+			focus = DAT_far_enemies
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = DAT_tier_science
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10
+		prerequisite = {
+			focus = DAT_far_enemies
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = DAT_find_friends
+		icon = GFX_goal_generic_military_deal
+		cost = 10
+		prerequisite = {
+			focus = DAT_end_isolatism
+		}
+		mutually_exclusive = {
+			focus = DAT_far_enemies
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = DAT_tier_partners
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10
+		prerequisite = {
+			focus = DAT_find_friends
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = DAT_research_once
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10
+		prerequisite = {
+			focus = DAT_tier_partners
+		}
+		x = 15
+		y = 6
+
+	}
+	focus = {
+		id = DAT_up_opinions
+		icon = GFX_goal_generic_major_alliance
+		cost = 10
+		prerequisite = {
+			focus = DAT_find_friends
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = DAT_east_gar
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		prerequisite = {
+			focus = DAT_up_opinions
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = DAT_east_union
+		icon = GFX_goal_generic_improve_relations
+		cost = 10
+		prerequisite = {
+			focus = DAT_east_gar
+		}
+		mutually_exclusive = {
+			focus = DAT_elmar_union2
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = DAT_anorian_friends
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10
+		prerequisite = {
+			focus = DAT_find_friends
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = DAT_veli_gar
+		icon = GFX_goal_generic_cavalry
+		cost = 10
+		prerequisite = {
+			focus = DAT_anorian_friends
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = DAT_elmar_pact
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10
+		prerequisite = {
+			focus = DAT_find_friends
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = DAT_west_companis
+		icon = GFX_goal_generic_oil_refinery
+		cost = 10
+		prerequisite = {
+			focus = DAT_elmar_pact
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
+		id = DAT_elmar_union2
+		icon = GFX_goal_tripartite_pact
+		cost = 10
+		prerequisite = {
+			focus = DAT_west_companis
+		}
+		mutually_exclusive = {
+			focus = DAT_east_union
+		}
+		x = 21
+		y = 7
+
+	}
+	focus = {
+		id = DAT_our_far_way
+		icon = GFX_goal_generic_construction2
+		cost = 10
+		prerequisite = {
+			focus = DAT_kortalin_kill
+		}
+		mutually_exclusive = {
+			focus = DAT_king_question
+			focus = DAT_people_wish
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = DAT_return_istok
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		prerequisite = {
+			focus = DAT_our_far_way
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = DAT_datorian_traditions
+		icon = GFX_goal_support_democracy
+		cost = 10
+		prerequisite = {
+			focus = DAT_return_istok
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = DAT_free_to_sivarian_people
+		icon = GFX_goal_generic_army_doctrines
+		cost = 10
+		prerequisite = {
+			focus = DAT_datorian_traditions
+		}
+		mutually_exclusive = {
+			focus = DAT_new_leader
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = DAT_sivarian_union
+		icon = GFX_goal_generic_military_deal
+		cost = 10
+		prerequisite = {
+			focus = DAT_free_to_sivarian_people
+		}
+		mutually_exclusive = {
+			focus = DAT_my_problems
+		}
+		x = 23
+		y = 6
+
+	}
+	focus = {
+		id = DAT_new_leader
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10
+		prerequisite = {
+			focus = DAT_datorian_traditions
+		}
+		mutually_exclusive = {
+			focus = DAT_free_to_sivarian_people
+		}
+		x = 29
+		y = 5
+
+	}
+	focus = {
+		id = DAT_vixran_compromiss
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		prerequisite = {
+			focus = DAT_new_leader
+			focus = DAT_free_to_sivarian_people
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = DAT_my_problems
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10
+		prerequisite = {
+			focus = DAT_free_to_sivarian_people
+		}
+		mutually_exclusive = {
+			focus = DAT_sivarian_union
+		}
+		x = 25
+		y = 6
+
+	}
+	focus = {
+		id = DAT_avtar
+		icon = GFX_goal_generic_production2
+		cost = 10
+		prerequisite = {
+			focus = DAT_new_leader
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = DAT_sivar_defence
+		icon = GFX_goal_generic_military_sphere
+		cost = 10
+		prerequisite = {
+			focus = DAT_sivarian_union
+			focus = DAT_my_problems
+			focus = DAT_avtar
+		}
+		x = 27
+		y = 7
+
+	}
+	focus = {
+		id = DAT_nope_other
+		icon = GFX_goal_generic_position_armies
+		cost = 10
+		prerequisite = {
+			focus = DAT_sivar_defence
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = DAT_reserve_border
+		icon = GFX_goal_generic_small_arms
+		cost = 10
+		prerequisite = {
+			focus = DAT_sivar_defence
+		}
+		x = 28
+		y = 8
+
+	}
+	focus = {
+		id = DAT_east_bastion
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10
+		prerequisite = {
+			focus = DAT_reserve_border
+		}
+		prerequisite = {
+			focus = DAT_nope_other
+		}
+		x = 27
+		y = 9
+
+	}
+	focus = {
+		id = DAT_king_question
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10
+		prerequisite = {
+			focus = DAT_kortalin_kill
+		}
+		mutually_exclusive = {
+			focus = DAT_our_far_way
+			focus = DAT_people_wish
+		}
+		x = 39
+		y = 2
+
+	}
+	focus = {
+		id = DAT_east_monarchy
+		icon = GFX_goal_generic_position_armies
+		cost = 10
+		prerequisite = {
+			focus = DAT_king_question
+		}
+		x = 39
+		y = 4
+
+	}
+	focus = {
+		id = DAT_king_speak
+		icon = GFX_goal_generic_radar
+		cost = 10
+		prerequisite = {
+			focus = DAT_east_monarchy
+		}
+		x = 38
+		y = 6
+
+	}
+	focus = {
+		id = DAT_our_science
+		icon = GFX_focus_research
+		cost = 10
+		prerequisite = {
+			focus = DAT_avtar
+			focus = DAT_king_speak
+		}
+		x = 33
+		y = 7
+
+	}
+	focus = {
+		id = DAT_young_nation
+		icon = GFX_goal_support_democracy
+		cost = 10
+		prerequisite = {
+			focus = DAT_east_monarchy
+		}
+		x = 40
+		y = 6
+
+	}
+	focus = {
+		id = DAT_unite_sivar
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		prerequisite = {
+			focus = DAT_young_nation
+		}
+		prerequisite = {
+			focus = DAT_king_speak
+		}
+		mutually_exclusive = {
+			focus = DAT_vixran_compromis
+		}
+		x = 40
+		y = 7
+
+	}
+	focus = {
+		id = DAT_people_wish
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		prerequisite = {
+			focus = DAT_kortalin_kill
+		}
+		mutually_exclusive = {
+			focus = DAT_our_far_way
+			focus = DAT_king_question
+		}
+		x = 48
+		y = 2
+
+	}
+	focus = {
+		id = DAT_must_work
+		icon = GFX_goal_generic_air_production
+		cost = 10
+		prerequisite = {
+			focus = DAT_people_wish
+		}
+		x = 48
+		y = 3
+
+	}
+	focus = {
+		id = DAT_time_is_it_2
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10
+		prerequisite = {
+			focus = DAT_must_work
+		}
+		x = 48
+		y = 4
+
+	}
+	focus = {
+		id = DAT_comitet_of_workers
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10
+		prerequisite = {
+			focus = DAT_time_is_it_2
+		}
+		x = 46
+		y = 5
+
+	}
+	focus = {
+		id = DAT_double_temps
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		prerequisite = {
+			focus = DAT_time_is_it_2
+		}
+		x = 48
+		y = 5
+
+	}
+	focus = {
+		id = DAT_people_radiostation
+		icon = GFX_goal_generic_radar
+		cost = 10
+		prerequisite = {
+			focus = DAT_double_temps
+		}
+		prerequisite = {
+			focus = DAT_comitet_of_workers
+		}
+		x = 48
+		y = 6
+
+	}
+	focus = {
+		id = DAT_red_east
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10
+		prerequisite = {
+			focus = DAT_people_radiostation
+		}
+		x = 48
+		y = 7
+
+	}
+	focus = {
+		id = DAT_datorian_revolution
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		prerequisite = {
+			focus = DAT_red_east
+		}
+		x = 48
+		y = 8
+
+	}
+	focus = {
+		id = DAT_colonizator_ultimatum
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10
+		prerequisite = {
+			focus = DAT_datorian_revolution
+		}
+		x = 48
+		y = 9
+
+	}
+	focus = {
+		id = DAT_support_elmar_friends
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		prerequisite = {
+			focus = DAT_time_is_it_2
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = DAT_inter_union
+		icon = GFX_goal_support_communism
+		cost = 10
+		prerequisite = {
+			focus = DAT_support_elmar_friends
+		}
+		x = 50
+		y = 6
+
+	}
+	focus = {
+		id = DAT_help_to_others
+		icon = GFX_goal_tripartite_pact
+		cost = 10
+		prerequisite = {
+			focus = DAT_datorian_revolution
+		}
+		x = 50
+		y = 9
+
+	}
+	focus = {
+		id = DAT_weapons_1
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 10
+		prerequisite = {
+			focus = DAT_reform_siv_army
+		}
+		x = 55
+		y = 1
+
+	}
+	focus = {
+		id = DAT_weapons_2
+		icon = GFX_goal_generic_fortify_city
+		cost = 10
+		prerequisite = {
+			focus = DAT_weapons_1
+		}
+		x = 55
+		y = 2
+
+	}
+	focus = {
+		id = DAT_upgrade_bullets
+		icon = GFX_goal_poland_goal
+		cost = 10
+		prerequisite = {
+			focus = DAT_weapons_2
+		}
+		x = 53
+		y = 3
+
+	}
+	focus = {
+		id = DAT_weapons_3
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10
+		prerequisite = {
+			focus = DAT_weapons_2
+		}
+		x = 55
+		y = 3
+
+	}
+	focus = {
+		id = DAT_weapons_4
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10
+		prerequisite = {
+			focus = DAT_weapons_3
+		}
+		prerequisite = {
+			focus = DAT_upgrade_bullets
+		}
+		x = 54
+		y = 4
+
+	}
+	focus = {
+		id = DAT_infantry_1
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 10
+		prerequisite = {
+			focus = DAT_reform_siv_army
+		}
+		x = 58
+		y = 1
+
+	}
+	focus = {
+		id = DAT_infantry_2
+		icon = GFX_goal_generic_build_tank
+		cost = 10
+		prerequisite = {
+			focus = DAT_infantry_1
+		}
+		x = 58
+		y = 2
+
+	}
+	focus = {
+		id = DAT_infantry_3
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10
+		prerequisite = {
+			focus = DAT_infantry_2
+		}
+		x = 58
+		y = 3
+
+	}
+	focus = {
+		id = DAT_infantry_4
+		icon = GFX_goal_rhineland
+		cost = 10
+		prerequisite = {
+			focus = DAT_infantry_3
+		}
+		x = 58
+		y = 4
+
+	}
+	focus = {
+		id = DAT_infantry_5
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10
+		prerequisite = {
+			focus = DAT_infantry_4
+		}
+		x = 58
+		y = 5
+
+	}
+	focus = {
+		id = DAT_technic_1
+		icon = GFX_goal_generic_production2
+		cost = 10
+		prerequisite = {
+			focus = DAT_reform_siv_army
+		}
+		x = 61
+		y = 1
+
+	}
+	focus = {
+		id = DAT_technic_2
+		icon = GFX_goal_generic_air_fighter2
+		cost = 10
+		prerequisite = {
+			focus = DAT_technic_1
+		}
+		x = 61
+		y = 2
+
+	}
+	focus = {
+		id = DAT_new_samples
+		icon = GFX_goal_generic_air_production
+		cost = 10
+		prerequisite = {
+			focus = DAT_technic_2
+		}
+		x = 61
+		y = 3
+
+	}
+	focus = {
+		id = DAT_km_02
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10
+		prerequisite = {
+			focus = DAT_technic_2
+		}
+		x = 63
+		y = 3
+
+	}
+	focus = {
+		id = DAT_east_monsters
+		icon = GFX_goal_generic_army_tanks
+		cost = 10
+		prerequisite = {
+			focus = DAT_new_samples
+		}
+		prerequisite = {
+			focus = DAT_km_02
+		}
+		x = 62
+		y = 4
+
+	}
+	focus = {
+		id = DAT_Northern_shipyards_of_Sivar
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = DAT_Expansion_of_the_Kortalinberg_ports
+		}
+		x = 64
+		y = 1
+
+	}
+	focus = {
+		id = DAT_Trading_Ports
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10
+		prerequisite = {
+			focus = DAT_Expansion_of_the_Kortalinberg_ports
+		}
+		available = {
+			has_completed_focus = DAT_end_isolatism
+		}
+		x = 67
+		y = 1
+
+	}
+	focus = {
+		id = DAT_Protection_of_our_convoys
+		icon = GFX_goal_generic_amphibious_assault
+		cost = 10
+		prerequisite = {
+			focus = DAT_Trading_Ports
+		}
+		x = 67
+		y = 2
+
+	}
+	focus = {
+		id = DAT_Trade_expansion
+		icon = GFX_goal_generic_trade
+		cost = 10
+		prerequisite = {
+			focus = DAT_Protection_of_our_convoys
+		}
+		x = 67
+		y = 3
+
+	}
+	focus = {
+		id = DAT_Export_of_Oriental_goods
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 10
+		prerequisite = {
+			focus = DAT_Trade_expansion
+		}
+		x = 66
+		y = 4
+
+	}
+	focus = {
+		id = DAT_New_marine_interests
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10
+		prerequisite = {
+			focus = DAT_Trade_expansion
+		}
+		x = 68
+		y = 4
+
+	}
+	focus = {
+		id = DAT_Eastern_Trade_Center
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10
+		prerequisite = {
+			focus = DAT_Export_of_Oriental_goods
+		}
+		prerequisite = {
+			focus = DAT_New_marine_interests
+		}
+		x = 67
+		y = 5
+
+	}
+	focus = {
+		id = DAT_Ports_of_internal_use
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10
+		prerequisite = {
+			focus = DAT_Expansion_of_the_Kortalinberg_ports
+		}
+		x = 70
+		y = 1
+
+	}
+	focus = {
+		id = DAT_Plan_sea_wall
+		icon = GFX_goal_generic_position_armies
+		cost = 10
+		prerequisite = {
+			focus = DAT_Ports_of_internal_use
+		}
+		x = 70
+		y = 2
+
+	}
+	focus = {
+		id = DAT_Shore
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10
+		prerequisite = {
+			focus = DAT_Plan_sea_wall
+		}
+		x = 69
+		y = 3
+
+	}
+	focus = {
+		id = DAT_Rate_on_the_line_fleet
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10
+		prerequisite = {
+			focus = DAT_Plan_sea_wall
+		}
+		mutually_exclusive = {
+			focus = DAT_Hunting_for_the_enemy
+		}
+		x = 71
+		y = 3
+
+	}
+	focus = {
+		id = DAT_dat_nas
+		icon = GFX_goal_generic_political_pressure
+		cost = 10
+		prerequisite = {
+			focus = DAT_far_enemies
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = DAT_amo_ulti
+		icon = GFX_goal_generic_army_artillery2
+		cost = 10
+		prerequisite = {
+			focus = DAT_requir_vali
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = DAT_cross_col
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		prerequisite = {
+			focus = DAT_tier_science
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = DAT_180_game
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10
+		prerequisite = {
+			focus = DAT_dat_nas
+		}
+		prerequisite = {
+			focus = DAT_cross_col
+		}
+		prerequisite = {
+			focus = DAT_amo_ulti
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = DAT_ll_king
+		icon = GFX_goal_support_fascism
+		cost = 10
+		prerequisite = {
+			focus = DAT_180_game
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = DAT_new_gegemon
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10
+		prerequisite = {
+			focus = DAT_ll_king
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = DAT_cevari
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 10
+		prerequisite = {
+			focus = DAT_new_platz
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = DAT_unite_east
+		icon = GFX_goal_generic_CAS
+		cost = 10
+		prerequisite = {
+			focus = DAT_ihari
+		}
+		prerequisite = {
+			focus = DAT_cevari
+		}
+		x = 5
+		y = 10
+
+	}
+	focus = {
+		id = DAT_vixran_compromis
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		prerequisite = {
+			focus = DAT_king_speak
+		}
+		prerequisite = {
+			focus = DAT_young_nation
+		}
+		mutually_exclusive = {
+			focus = DAT_unite_sivar
+		}
+		x = 38
+		y = 7
+
+	}
+	focus = {
+		id = DAT_quality_controll
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10
+		prerequisite = {
+			focus = DAT_unite_sivar
+			focus = DAT_vixran_compromis
+		}
+		x = 39
+		y = 8
+
+	}
+	focus = {
+		id = DAT_king_attack
+		icon = GFX_goal_generic_political_pressure
+		cost = 10
+		prerequisite = {
+			focus = DAT_quality_controll
+		}
+		mutually_exclusive = {
+			focus = DAT_king_defence
+		}
+		x = 38
+		y = 9
+
+	}
+	focus = {
+		id = DAT_king_defence
+		icon = GFX_goal_generic_defence
+		cost = 10
+		prerequisite = {
+			focus = DAT_quality_controll
+		}
+		mutually_exclusive = {
+			focus = DAT_king_attack
+		}
+		x = 40
+		y = 9
+
+	}
+	focus = {
+		id = DAT_mayak_east_culture
+		icon = GFX_goal_generic_radar
+		cost = 10
+		prerequisite = {
+			focus = DAT_king_defence
+			focus = DAT_king_attack
+		}
+		x = 39
+		y = 10
+
+	}
+	focus = {
+		id = DAT_education_reform
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10
+		prerequisite = {
+			focus = DAT_datorian_revolution
+		}
+		x = 46
+		y = 9
+
+	}
+	focus = {
+		id = DAT_Hunting_for_the_enemy
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10
+		prerequisite = {
+			focus = DAT_Plan_sea_wall
+		}
+		mutually_exclusive = {
+			focus = DAT_Rate_on_the_line_fleet
+		}
+		x = 73
+		y = 3
+
+	}
+}

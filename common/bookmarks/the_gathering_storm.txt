@@ -1,0 +1,28 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "ELM"
+		default = yes
+		
+        "ELM"={
+			history = "OTHER_GATHERING_STORM_DESC"
+			
+		ideas = {
+			undisturbed_isolation
+		}
+			
+		focuses = {
+			ELM_save_monarchy
+			ELM_choose_worthy
+			ELM_ellarian_bastion
+			}
+		}
+		
+        effect = {
+		randomize_weather = 22345 # <- Obligatory in every bookmark !
+		#123 = { rain_light = yes }
+	}
+}

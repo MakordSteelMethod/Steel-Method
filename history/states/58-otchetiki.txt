@@ -1,0 +1,13 @@
+state={
+	id=58
+	name="STATE_58"
+        history={
+		owner = SOH
+		add_core_of = SOH
+	}
+	provinces={
+		3475 3520 3541 3596 3597 3635 3642 3659 3706 3723 3729 3731 3804 3811 3821 3826 3846 3860 3881 3882 3903 3936 3937 3946 3957 3967 3969 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

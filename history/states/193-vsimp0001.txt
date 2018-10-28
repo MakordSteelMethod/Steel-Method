@@ -1,0 +1,13 @@
+state={
+	id=193
+	name="STATE_193"
+	history={
+		owner = VAD
+		add_core_of = VAD
+	}
+	provinces={
+		3121 3122 3128 3223 3242 3321 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

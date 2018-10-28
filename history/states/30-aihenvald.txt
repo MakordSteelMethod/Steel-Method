@@ -1,0 +1,13 @@
+state={
+	id=30
+	name="STATE_30"
+        history={
+		owner = ALF
+		add_core_of = ALF
+	}
+	provinces={
+		2432 2440 2448 2457 2505 2506 2528 2571 2579 2597 2611 2622 2631 2639 2670 2695 2703 2713 2742 2785 2786 2826 2862 2901 2918 2938 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

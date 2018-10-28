@@ -1,0 +1,13 @@
+state={
+	id=29
+	name="STATE_29"
+        history={
+		owner = MAH
+		add_core_of = MAH
+	}
+	provinces={
+		3687 3698 3704 3716 3778 3785 3802 3828 3871 3894 3917 3934 3986 3993 4005 4043 4052 4078 4107 4146 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

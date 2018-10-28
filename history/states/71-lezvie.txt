@@ -1,0 +1,13 @@
+state={
+	id=71
+	name="STATE_71"
+        history={
+		owner = KRD
+		add_core_of = KRD
+	}
+	provinces={
+		1473 1563 1733 1849 1895 2032 2036 2037 2172 2185 2211 2302 2309 2332 2410 2411 2467 2493 2502 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=103
+	name="STATE_103"
+	
+	history={
+		owner = MIL
+		add_core_of = MIL
+	}
+	
+	provinces={
+		6536 6596 6624 6686 6708 6709 6762 6763 6780 6802 6814 6846 6858 6864 6871 6872 6883 6894 6938 6948 6953 6957 6958 6964 6998 7007 7071 7072 7080 7160 7162 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

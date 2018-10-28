@@ -1,0 +1,13 @@
+state={
+	id=113
+	name="STATE_113"
+        history={
+		owner = ANR
+		add_core_of = ANR
+	}
+	provinces={
+		4737 4754 4825 4888 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

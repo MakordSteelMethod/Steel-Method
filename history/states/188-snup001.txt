@@ -1,0 +1,13 @@
+state={
+	id=188
+	name="STATE_188"
+        history={
+		owner = FRG
+		add_core_of = FRG
+	}
+	provinces={
+		4683 4770 4797 4806 4900 4901 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+
+state={
+	id=95
+	name="STATE_95"
+        history={
+		owner = SHH
+		add_core_of = SHH
+	}
+	provinces={
+		5428 5512 5566 5567 5578 5624 5625 5629 5643 5649 5674 5703 5704 5708 5723 5728 5729 5747 5757 5764 5773 5793 5794 5800 5807 5841 5851 5872 5873 5889 5933 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

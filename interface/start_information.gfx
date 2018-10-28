@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_basic_info_picture"
+		textureFile = "gfx/interface/info_icons/basic_info_picture.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_DAT_info_picture"
+		textureFile = "gfx/interface/info_icons/DAT_info_picture.dds"
+	}
+	
+}

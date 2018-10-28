@@ -1,0 +1,13 @@
+state={
+	id=219
+	name="STATE_219"
+        history={
+		owner = KAR
+		add_core_of = KAR
+	}
+	provinces={
+		766 860 1483 1496 1570 1614 1675 1681 1688 1744 1753 1783 1796 1797 1804 1816 1828 1885 1894 1900 1927 1938 1965 2005 2014 2017 2061 2064 2111 2129 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,15 @@
+state={
+	id=78
+	name="STATE_78"
+	
+	history={
+		owner = DOK
+		add_core_of = DOK
+	}
+	
+	provinces={
+		3948 3977 4019 4047 4056 4072 4085 4093 4118 4144 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

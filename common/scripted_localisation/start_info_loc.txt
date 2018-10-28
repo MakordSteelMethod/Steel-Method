@@ -1,0 +1,17 @@
+defined_text = {
+	name = GetStartInfoDesc
+	text = {
+		trigger = {
+			NOT = {
+				tag = DAT
+			}
+		}
+		localization_key = basic_info_desc_text
+	}
+	text = {
+		trigger = {
+			tag = DAT
+		}
+		localization_key = DAT_info_desc_text
+	}
+}

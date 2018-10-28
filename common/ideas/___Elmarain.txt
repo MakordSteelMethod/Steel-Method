@@ -1,0 +1,130 @@
+ideas = {
+
+    country = {
+	
+	    elm_general_council = {
+		    
+			removal_cost = -1 
+			
+			allowed = {
+			
+			}
+			
+			modifier = {
+				political_power_cost = 0.8
+				stability_factor = -0.10
+				max_planning = 0.15
+				planning_speed = -0.30
+			}
+		}
+		
+		elm_bad_army_organisation = {
+			
+			removal_cost = -1
+			
+			allowed = {
+
+			}
+			
+			modifier = {
+				army_org_factor = -0.5
+				training_time_factor = 0.5
+			}
+		}
+		
+		elm_monarchy_support = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				
+			}
+			
+			modifier = {
+				monarchy_drift = 0.25
+			}
+		}
+		
+		elm_unlimited_devotion = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				has_government = monarchy
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+			}
+		}
+		
+		elm_symbol_of_nation = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				has_government = monarchy
+			}
+			
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		
+		elm_constitution = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				has_government = monarchy
+			}
+			
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.10
+			}
+		}
+		
+		elm_democratic_reforms = {
+			
+			removal_cost = -1
+			
+			allowed = {
+			
+			}
+			
+			modifier = {
+				democratic_drift = 0.25
+			}
+		}
+		
+		elm_generals_opposition = {
+			
+			removal_cost = -1
+			
+			allowed = {
+			
+			}
+			
+			modifier = {
+				army_leader_cost_factor = 0.5
+				command_power_gain_mult = -0.5
+			}
+		}
+		
+		elm_republican_ethos = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				has_government = democratic
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+		}
+	}
+}

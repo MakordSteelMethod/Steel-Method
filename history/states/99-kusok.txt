@@ -1,0 +1,16 @@
+
+state={
+	id=99
+	name="STATE_99"
+	
+	history={
+		owner = ZVR
+		add_core_of = ZVR
+	}
+	
+	provinces={
+		7111 7126 7135 7157 7170 7171 7186 7225 7231 7304 7307 7343 7344 7370 7371 7416 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

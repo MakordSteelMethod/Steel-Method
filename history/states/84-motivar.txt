@@ -1,0 +1,13 @@
+state={
+	id=84
+	name="STATE_84"
+        history={
+		owner = DAT
+		add_core_of = DAT
+	}
+	provinces={
+		1477 1515 1546 1554 1578 1579 1628 1629 1630 1692 1697 1706 1728 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

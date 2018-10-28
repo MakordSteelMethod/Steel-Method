@@ -1,0 +1,13 @@
+state={
+	id=204
+	name="STATE_204"
+        history={
+		owner = DER
+		add_core_of = DER
+	}
+	provinces={
+		2751 2912 2999 3035 3088 3123 3194 3213 3300 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

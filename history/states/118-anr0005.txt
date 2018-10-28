@@ -1,0 +1,13 @@
+state={
+	id=118
+	name="STATE_118"
+        history={
+		owner = ANR
+		add_core_of = ANR
+	}
+	provinces={
+		3571 3583 3584 3634 3695 3696 3701 3750 3767 3824 3863 3880 3884 3919 3920 4007 4054 4060 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

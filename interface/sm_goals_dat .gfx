@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_goal_dat_future_manifest"
+		texturefile = "gfx/interface/goals/datoria/goal_dat_future_manifest.dds"
+	}
+}

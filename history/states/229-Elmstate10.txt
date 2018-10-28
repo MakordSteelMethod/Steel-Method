@@ -1,0 +1,21 @@
+
+state={
+	id=229
+	name="STATE_229"
+
+	history={
+		owner = ELM
+		add_core_of = ELM
+		buildings = {
+			infrastructure = 6
+
+		}
+
+	}
+
+	provinces={
+		3932 3943 4058 4059 4125 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

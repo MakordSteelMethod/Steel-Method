@@ -1,0 +1,13 @@
+state={
+	id=136
+	name="STATE_136"
+        history={
+		owner = TDN
+		add_core_of = TDN
+	}
+	provinces={
+		7300 7356 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

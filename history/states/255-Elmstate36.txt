@@ -1,0 +1,17 @@
+
+state={
+	id=255
+	name="STATE_255"
+
+	history={
+		owner = ELM
+		add_core_of = ELM
+
+	}
+
+	provinces={
+		5145 5204 5234 5249 5318 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

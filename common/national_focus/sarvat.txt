@@ -1,0 +1,403 @@
+focus_tree = {
+	id = sarvat
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAR
+		}
+	}
+	default = no
+	focus = {
+		id = SAR_elections_1736
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		x = 12
+		y = 0
+
+	}
+	focus = {
+		id = SAR_daro_inaguration
+		icon = GFX_goal_generic_territory_or_war
+		cost = 10
+		prerequisite = {
+			focus = SAR_elections_1736
+		}
+		mutually_exclusive = {
+			focus = SAR_new_president
+			focus = SAR_boikot_elections
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = SAR_way_agression
+		icon = GFX_goal_generic_army_tanks
+		cost = 10
+		prerequisite = {
+			focus = SAR_daro_inaguration
+		}
+		mutually_exclusive = {
+			focus = SAR_way_stabilisation
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = SAR_birtenian_problem
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 10
+		prerequisite = {
+			focus = SAR_way_agression
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = SAR_final_punch
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		prerequisite = {
+			focus = SAR_birtenian_problem
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = SAR_way_stabilisation
+		icon = GFX_goal_generic_military_sphere
+		cost = 10
+		prerequisite = {
+			focus = SAR_daro_inaguration
+		}
+		mutually_exclusive = {
+			focus = SAR_way_agression
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = SAR_zaver_electorat
+		icon = GFX_goal_generic_radar
+		cost = 10
+		prerequisite = {
+			focus = SAR_way_agression
+		}
+		prerequisite = {
+			focus = SAR_way_stabilisation
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = SAR_people_patriotism
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		prerequisite = {
+			focus = SAR_zaver_electorat
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = SAR_sphere
+		icon = GFX_goal_generic_cavalry
+		cost = 10
+		prerequisite = {
+			focus = SAR_people_patriotism
+		}
+		prerequisite = {
+			focus = SAR_final_punch
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = SAR_strength_requirs
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10
+		prerequisite = {
+			focus = SAR_sphere
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = SAR_last_ultimatum
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10
+		prerequisite = {
+			focus = SAR_way_stabilisation
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = SAR_new_president
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		prerequisite = {
+			focus = SAR_elections_1736
+		}
+		mutually_exclusive = {
+			focus = SAR_daro_inaguration
+			focus = SAR_boikot_elections
+		}
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = SAR_peace_way
+		icon = GFX_goal_tripartite_pact
+		cost = 10
+		prerequisite = {
+			focus = SAR_new_president
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = SAR_birtenian_autonomy
+		icon = GFX_goal_generic_cavalry
+		cost = 10
+		prerequisite = {
+			focus = SAR_peace_way
+		}
+		mutually_exclusive = {
+			focus = SAR_free_birtenia
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = SAR_reset_roads
+		icon = GFX_goal_generic_position_armies
+		cost = 10
+		prerequisite = {
+			focus = SAR_birtenian_autonomy
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = SAR_free_birtenia
+		icon = GFX_goal_anschluss
+		cost = 10
+		prerequisite = {
+			focus = SAR_peace_way
+		}
+		mutually_exclusive = {
+			focus = SAR_birtenian_autonomy
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = SAR_west_peace
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10
+		prerequisite = {
+			focus = SAR_peace_way
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = SAR_give_autonomy
+		icon = GFX_goal_tripartite_pact
+		cost = 10
+		prerequisite = {
+			focus = SAR_west_peace
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = SAR_eunor_institute
+		icon = GFX_focus_research
+		cost = 10
+		prerequisite = {
+			focus = SAR_give_autonomy
+		}
+		mutually_exclusive = {
+			focus = SAR_decolonisation
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = SAR_boikot_elections
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		prerequisite = {
+			focus = SAR_elections_1736
+		}
+		mutually_exclusive = {
+			focus = SAR_daro_inaguration
+			focus = SAR_new_president
+		}
+		x = 26
+		y = 1
+
+	}
+	focus = {
+		id = SAR_people_evil
+		icon = GFX_goal_generic_political_pressure
+		cost = 10
+		prerequisite = {
+			focus = SAR_boikot_elections
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = SAR_rise_workers
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10
+		prerequisite = {
+			focus = SAR_people_evil
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = SAR_red_milizia
+		icon = GFX_goal_support_fourth_int
+		cost = 10
+		prerequisite = {
+			focus = SAR_people_evil
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = SAR_one_decision
+		icon = GFX_goal_generic_national_unity
+		cost = 10
+		prerequisite = {
+			focus = SAR_rise_workers
+		}
+		prerequisite = {
+			focus = SAR_red_milizia
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = SAR_decolonisation
+		icon = GFX_goal_support_democracy
+		cost = 10
+		prerequisite = {
+			focus = SAR_give_autonomy
+			focus = SAR_one_decision
+		}
+		mutually_exclusive = {
+			focus = SAR_eunor_institute
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = SAR_support_neighbours
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10
+		prerequisite = {
+			focus = SAR_one_decision
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = SAR_require_annexation
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10
+		prerequisite = {
+			focus = SAR_sphere
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = SAR_new_state
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10
+		prerequisite = {
+			focus = SAR_strength_requirs
+		}
+		prerequisite = {
+			focus = SAR_require_annexation
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = SAR_new_democracy
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10
+		prerequisite = {
+			focus = SAR_new_state
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = SAR_unbord_functions
+		icon = GFX_goal_generic_demand_territory
+		cost = 10
+		prerequisite = {
+			focus = SAR_new_state
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = SAR_natural_enemy
+		icon = GFX_goal_generic_major_war
+		cost = 10
+		prerequisite = {
+			focus = SAR_support_neighbours
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = SAR_people_union
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10
+		prerequisite = {
+			focus = SAR_support_neighbours
+		}
+		x = 25
+		y = 6
+
+	}
+}

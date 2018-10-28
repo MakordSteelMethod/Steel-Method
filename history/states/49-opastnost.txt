@@ -1,0 +1,13 @@
+state={
+	id=49
+	name="STATE_49"
+        history={
+		owner = CEV
+		add_core_of = CEV
+	}
+	provinces={
+		4814 4916 4938 4976 5020 5093 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

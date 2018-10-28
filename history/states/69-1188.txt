@@ -1,0 +1,13 @@
+state={
+	id=69
+	name="STATE_69"
+        history={
+		owner = KRS
+		add_core_of = KRS
+	}
+	provinces={
+		1192 1255 1269 1301 1333 1348 1366 1416 1429 1458 1504 1505 1567 1574 1651 1682 1711 1750 1754 1877 1887 1888 2054 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

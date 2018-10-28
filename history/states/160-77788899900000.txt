@@ -1,0 +1,13 @@
+state={
+	id=160
+	name="STATE_160"
+        history={
+		owner = BNT
+		add_core_of = BNT
+	}
+	provinces={
+		5297 5317 5324 5456 5471 5504 5538 5659 5719 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

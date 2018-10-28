@@ -1,0 +1,13 @@
+state={
+	id=176
+	name="STATE_176"
+        history={
+		owner = PKR
+		add_core_of = PKR
+	}
+	provinces={
+		3965 3994 4022 4095 4134 4173 4251 4276 4295 4309 4375 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

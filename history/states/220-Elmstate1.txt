@@ -1,0 +1,18 @@
+
+state={
+	id=220
+	name="STATE_220"
+
+	history={
+		owner = ELM
+		add_core_of = ELM
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces={
+		5402 5410 5534 5619 5711 5777 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

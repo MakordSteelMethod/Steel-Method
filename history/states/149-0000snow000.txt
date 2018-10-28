@@ -1,0 +1,13 @@
+state={
+	id=149
+	name="STATE_149"
+        history={
+		owner = SRR
+		add_core_of = SRR
+	}
+	provinces={
+		6500 6554 6565 6668 6787 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

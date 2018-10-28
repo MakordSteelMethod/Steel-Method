@@ -1,0 +1,13 @@
+state={
+	id=153
+	name="STATE_153"
+        history={
+		owner = BIR
+		add_core_of = BIR
+	}
+	provinces={
+		5462 5522 5580 5609 5622 5647 5678 5751 5769 5792 5847 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=77
+	name="STATE_77"
+	
+	history={
+		owner = FAR
+		add_core_of = FAR
+	}
+	
+	provinces={
+		3719 3720 4136 4155 4219 4232 4274 4340 4369 4411 4438 4463 4470 4477 4522 4550 4559 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

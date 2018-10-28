@@ -1,0 +1,16 @@
+
+state={
+	id=79
+	name="STATE_79"
+	
+	history={
+		owner = DOV
+		add_core_of = DOV
+	}
+	
+	provinces={
+		3607 3684 3685 3692 3724 3742 3751 3760 3789 3793 3799 3801 3815 3816 3822 3838 3839 3848 3861 3872 3877 3899 3900 3905 3906 3907 3922 3954 3958 4027 4037 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

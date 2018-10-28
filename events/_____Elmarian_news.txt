@@ -1,0 +1,87 @@
+﻿
+add_namespace = elmar_news
+
+
+news_event = {
+	id = elmar_news.1
+	title = elmar_news.1.t
+	desc = elmar_news.1.d
+	picture = GFX_news_event_royal_visit
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+#-----------------------------------------
+	
+	option = {
+		name = elmar_news.1.a
+		trigger = {
+			NOT = {
+				TAG = ELM
+			}
+		}
+	}
+	
+#-----------------------------------------
+	
+	option = {
+		name = elmar_news.1.b
+		trigger = { TAG = ELM }
+	}
+}
+
+#=========================================
+
+news_event = {
+	id = elmar_news.2
+	title = elmar_news.2.t
+	desc = elmar_news.2.d
+	picture = GFX_news_event_romania_parliament
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+#-----------------------------------------
+	
+	option = {
+		name = elmar_news.2.a
+		trigger = {
+			NOT = {
+				TAG = ELM
+			}
+		}
+	}
+	
+#-----------------------------------------
+	
+	option = {
+		name = elmar_news.2.b
+		trigger = { TAG = ELM }
+	}
+}
+
+#=========================================
+
+news_event = {
+	id = elmar_news.3
+	title = elmar_news.3.t
+	desc = elmar_news.3.d
+	picture = GFX_news_event_generic_rally2
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+#-----------------------------------------
+	
+	option = {
+		name = elmar_news.3.a
+		trigger = {
+			NOT = {
+				TAG = ELM
+			}
+		}
+	}
+}

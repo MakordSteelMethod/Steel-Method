@@ -1,0 +1,89 @@
+﻿
+add_namespace = elmar
+
+country_event = {
+	id = elmar.1
+	title = elmar.1.t
+	desc = elmar.1.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	is_triggered_only = yes
+	
+#-----------------------------------------------------------------------------
+	
+	option = {
+		ai_chance = {
+			factor = 80
+		}
+		
+		name = elmar.1.a
+			country_event = elmar.2
+		}
+		
+#-----------------------------------------------------------------------------
+	
+	option = {
+		ai_chance = {
+			factor = 20
+		}
+		
+		name = elmar.1.b
+			add_political_power = -100
+
+		}
+	}
+
+#=============================================================================
+
+country_event = {
+	id = elmar.2
+	title = elmar.2.t
+	desc = elmar.2.d
+	picture = GFX_report_event_soviet_purge_officers_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		
+		name = elmar.2.a
+				
+			remove_unit_leader = 2
+			remove_unit_leader = 6
+			remove_unit_leader = 8
+		}
+	}
+	
+#=============================================================================
+
+country_event = {
+	id = elmar.3
+	title = elmar.3.t
+	desc = elmar.3.d
+	picture = GFX_report_event_generic_sign_treaty1
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = elmar.3.a
+		
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+			
+			}
+			
+		news_event = { id = elmar_news.3 days = 1 }
+		
+		country_event = { id = elmar_civil_war.2 days = 7 }
+		
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	

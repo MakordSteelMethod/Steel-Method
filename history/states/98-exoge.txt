@@ -1,0 +1,15 @@
+state={
+	id=98
+	name="STATE_98"
+	
+	history={
+		owner = FNT
+		add_core_of = FNT
+	}
+	
+	provinces={
+		5102 5171 5178 5241 5335 5373 5483 5540 5582 5644 5656 5662 5705 5739 5775 5788 5801 5812 5818 5844 5907 5908 5914 5938 6007 6109 6115 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

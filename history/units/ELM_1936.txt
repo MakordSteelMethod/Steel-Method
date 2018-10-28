@@ -1,0 +1,39 @@
+﻿division_template = {
+	name = "Infantry"
+
+	division_names_group = ELM_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Steel Division"
+		location = 4153
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "Steel Division"
+		location = 4153
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "Steel Division"
+		location = 4153
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.80
+	}
+	division = {
+		name = "Steel Division"
+		location = 4153
+		division_template = "Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.80
+	}

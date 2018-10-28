@@ -1,0 +1,14 @@
+
+state={
+	id=40
+	name="STATE_40"
+        history={
+		owner = SOH
+		add_core_of = SOH
+	}
+	provinces={
+		2530 2583 2598 2604 2665 2681 2697 2721 2750 2758 2782 2805 2806 2814 2822 2832 2858 2859 2870 2889 2896 2905 2919 2984 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

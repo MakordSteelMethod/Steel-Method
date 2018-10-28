@@ -1,0 +1,105 @@
+guiTypes = {
+	
+	containerWindowType = {
+		name = "start_info_window"
+		position = { x = 400 y = 200 }	
+		size = { width=570 height=700 }
+		movable = yes
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_tiled_plain_bg"
+		}
+		
+		containerWindowType = {
+			name = "start_info_title_cont"
+			position = { x = 0 y = 0 }	
+			size = { width=100%% height=128 }
+			
+			background = {
+				name = "Background"		
+				quadTextureSprite ="GFX_tiled_frontend_lower_bar"
+			}
+			
+			instantTextboxType = {
+				name = "title"
+				position = { x = 64 y = 39 }
+				font = "hoi_36header"
+				text = "start_info_title_text"
+				maxWidth = 450
+				maxHeight = 30
+				format = centre
+			}
+		}
+		
+		containerWindowType = {
+			name = "start_info_description_cont"
+			position = { x = 0 y = 120 }	
+			size = { width=100%% height=100%% }
+			
+			#background = {
+			#	name = "Background"		
+			#	quadTextureSprite ="GFX_tiled_plain_bg"
+			#}
+			
+			containerWindowType = {
+				name = "start_info_picture_cont"
+				position = { x = 14 y = 14 }	
+				size = { width=542 height=190 }
+				
+				background = {
+					name = "Background"		
+					quadTextureSprite ="GFX_tiled_window_thin_border2"
+				}
+				
+				iconType ={
+					name ="basic_picture"
+					spriteType = "GFX_basic_info_picture"
+					position = { x= 7 y = 7 }
+					Orientation = "UPPER_LEFT"
+				}
+				iconType ={
+					name ="DAT_picture"
+					spriteType = "GFX_DAT_info_picture"
+					position = { x= 7 y = 7 }
+					Orientation = "UPPER_LEFT"
+				}
+			}
+			
+			containerWindowType = {
+				name = "start_info_description_text_cont"
+				position = { x = 14 y = 220 }	
+				size = { width=542 height=346 }
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 4 bottom = 12}	
+				
+				background = {
+					name = "Background"		
+					quadTextureSprite ="GFX_tiled_window_1b_border"
+				}
+				
+				instantTextboxType = {
+					name = "description"
+					position = { x = 24 y = 24 }
+					font = "hoi_18mbs"
+					text = "start_info_desc_text"
+					maxWidth = 494
+					#maxHeight = 30
+					format = left
+				}
+			}
+		}
+		
+		buttonType = {
+			name = "close"
+			position = { x = -50 y = 39 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+	}
+}

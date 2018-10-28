@@ -1,0 +1,13 @@
+state={
+	id=209
+	name="STATE_209"
+        history={
+		owner = SOH
+		add_core_of = SOH
+	}
+	provinces={
+		997 2715 2735 2765 2833 2985 3034 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,14 @@
+state={
+	id=11
+	name="STATE_11"
+        state_category = megalopolis
+        history={
+		owner = SAR
+		add_core_of = SAR
+	}
+	provinces={
+		3195 3271 3281 3356 3362 3402 3403 3466 3491 3524 3567 3644 3650 3737 3757 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

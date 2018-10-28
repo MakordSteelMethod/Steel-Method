@@ -1,0 +1,13 @@
+state={
+	id=54
+	name="STATE_54"
+        history={
+		owner = ZAR
+		add_core_of = ZAR
+	}
+	provinces={
+		4431 4452 4503 4524 4539 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

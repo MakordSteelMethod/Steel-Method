@@ -1,0 +1,14 @@
+state={
+	id=9
+	name="STATE_9"
+        state_category = megalopolis
+        history={
+		owner = NOU
+		add_core_of = NOU
+	}
+	provinces={
+		3333 3566 3609 3662 3702 3730 3744 3755 3784 3827 3842 3886 3887 3892 3914 3990 3991 4010 4031 4039 4119 4130 4131 4183 4190 4250 4258 4313 4389 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

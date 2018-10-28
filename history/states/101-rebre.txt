@@ -1,0 +1,15 @@
+state={
+	id=101
+	name="STATE_101"
+	
+	history={
+		owner = ZUM
+		add_core_of = ZUM
+	}
+	
+	provinces={
+		7359 7380 7385 7405 7409 7411 7427 7428 7432 7433 7444 7445 7464 7465 7474 7478 7479 7499 7501 7503 7507 7509 7511 7515 7516 7520 7522 7525 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

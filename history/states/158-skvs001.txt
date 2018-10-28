@@ -1,0 +1,13 @@
+state={
+	id=158
+	name="STATE_158"
+        history={
+		owner = SKN
+		add_core_of = SKN
+	}
+	provinces={
+		6910 6940 7044 7095 7105 7140 7189 7222 7247 7260 7263 7287 7294 7336 7352 7369 7398 7402 7420 7424 7437 7450 7459 7460 7470 7473 7487 7495 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

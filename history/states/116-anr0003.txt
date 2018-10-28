@@ -1,0 +1,13 @@
+state={
+	id=116
+	name="STATE_116"
+        history={
+		owner = PRM
+		add_core_of = PRM
+	}
+	provinces={
+		2796 2890 2897 2920 2965 2987 3001 3060 3082 3083 3096 3097 3117 3133 3141 3214 3228 3262 3287 3290 3314 3334 3410 3423 3427 3435 3469 3549 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

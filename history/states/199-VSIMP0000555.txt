@@ -1,0 +1,13 @@
+state={
+	id=199
+	name="STATE_199"
+        history={
+		owner = FAS
+		add_core_of = FAS
+	}
+	provinces={
+		2521 2656 2682 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

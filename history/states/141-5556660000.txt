@@ -1,0 +1,13 @@
+state={
+	id=141
+	name="STATE_141"
+        history={
+		owner = SOR
+		add_core_of = SOR
+	}
+	provinces={
+		6424 6432 6519 6615 6684 6685 6788 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

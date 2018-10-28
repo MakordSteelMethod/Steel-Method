@@ -1,0 +1,13 @@
+state={
+	id=167
+	name="STATE_167"
+        history={
+		owner = SAR
+		add_core_of = SAR
+	}
+	provinces={
+		4245 4370 4382 4436 4444 4446 4506 4512 4513 4545 4592 4636 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

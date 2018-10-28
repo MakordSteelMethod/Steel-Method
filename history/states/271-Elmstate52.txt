@@ -1,0 +1,17 @@
+
+state={
+	id=271
+	name="STATE_271"
+
+	history={
+		owner = ELM
+		add_core_of = ELM
+
+	}
+
+	provinces={
+		2591 2679 2690 2759 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

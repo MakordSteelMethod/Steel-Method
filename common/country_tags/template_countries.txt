@@ -1,0 +1,82 @@
+TST = "countries/Test.txt"
+ELM = "countries/Elmarain.txt" 
+SAR = "countries/Sarvat.txt" 
+BIR = "countries/Birtenia.txt" 
+SOH = "countries/SOH.txt" 
+ANR = "countries/Anor.txt" 
+SOR = "countries/Sortmania.txt" 
+VAS = "countries/Vasaria.txt"
+PRM = "countries/Parmania.txt"
+RAV = "countries/Ravaria.txt"
+UTO = "countries/Utoran.txt"
+KAR = "countries/Karsuria.txt"
+ALT = "countries/Altras.txt"
+DER = "countries/Deran.txt"
+FAS = "countries/Fasa.txt"
+VAD = "countries/Vaduria.txt"
+GSU = "countries/Gasuria.txt"
+PKR = "countries/Pakar.txt"
+RWK = "countries/Rawak.txt"
+BNT = "countries/Banturia.txt"
+SVR = "countries/Suvuri.txt"
+FRG = "countries/Fragaria.txt"
+KOU = "countries/Koutyar.txt"
+CHU = "countries/Chou.txt"
+NOU = "countries/Noutyar.txt"
+SKG = "countries/Skynig.txt"
+SLT = "countries/Sultfar.txt"
+ALF = "countries/Alfaran.txt"
+MAH = "countries/Maharfa.txt"
+MUZ = "countries/Muzufan.txt"
+SHR = "countries/Shurvaria.txt"
+KRS = "countries/Kroson.txt"
+KRD = "countries/KrosonKingdom.txt"
+SRR = "countries/Sarr.txt"
+SKN = "countries/Skarvaitan.txt"
+MIS = "countries/Misan.txt"
+TDN = "countries/Taidar.txt"
+DAT = "countries/Datoria.txt"
+NAG = "countries/Nagora.txt"
+NAH = "countries/Nahas.txt"
+CEV = "countries/CevarFed.txt"
+CER = "countries/CevarRep.txt"
+LAV = "countries/Lavarinia.txt"
+ZAR = "countries/Zartan.txt"
+SHH = "countries/Shuh.txt"
+TIE = "countries/Tie.txt"
+
+MIZ = "countries/MizitarianTsardom.txt"
+GAR = "countries/Garulia.txt"
+
+DOK = "countries/Dokar.txt"
+FAR = "countries/Fargaman.txt"
+DOV = "countries/DovagarianKingdom.txt"
+
+ZUM = "countries/Zumnaria.txt"
+HAR = "countries/HartanianLeague.txt"
+MIL = "countries/Milliyrea.txt"
+VAR = "countries/Varzalania.txt"
+MAK = "countries/MakinianTsardom.txt"
+ZAV = "countries/Zavaritania.txt"
+ZVR = "countries/ZavianRepublic.txt"
+GIB = "countries/Gibtania.txt"
+FNT = "countries/Fintunia.txt"
+
+
+ELR = "countries/RedElmarain.txt"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

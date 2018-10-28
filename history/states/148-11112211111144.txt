@@ -1,0 +1,13 @@
+state={
+	id=148
+	name="STATE_148"
+        history={
+		owner = SKG
+		add_core_of = SKG
+	}
+	provinces={
+		7059 7087 7097 7155 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,6 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_goal_DAT_future_manifest"
+		texturefile = "gfx/interface/goals/goal_DAT_future_manifest.dds"
+	}
